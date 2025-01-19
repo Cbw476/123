@@ -1,0 +1,79 @@
+body {
+    font-family: 'Comic Neue', sans-serif;
+    background-color: #ffeaf7;
+    margin: 0;
+    color: #555;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #ffbde9;
+    padding: 20px;
+    border-bottom: 5px solid #ff80c0;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    color: #ff4da6;
+  }
+  
+  header p {
+    font-size: 1.2em;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .about {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .gallery {
+    text-align: center;
+  }
+  
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .photo-grid img {
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid #ff80c0;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #ffbde9;
+    padding: 10px;
+    font-size: 0.9em;
+  }
+  /* 按钮样式 */
+.bilibili-button {
+  background-color: #00a1d6; /* B站蓝色 */
+  color: white;
+  font-size: 1.2em;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;  /* 圆滑的边缘 */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  text-decoration: none;
+}
+
+.bilibili-button:hover {
+  background-color: #008cb0; /* 悬停时的颜色 */
+  transform: scale(1.05);  /* 按钮放大效果 */
+}
+
+/* 按钮容器的样式 */
+a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
